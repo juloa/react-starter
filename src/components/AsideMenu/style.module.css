@@ -1,0 +1,46 @@
+
+.menuLeft ul a span {
+  color:white !important;
+  
+}
+
+
+.menuLeft ul a :global span:not(.glyphicon)  {
+  font-family: Univers Condensed Light;
+  line-height: 2;
+  font-weight: 300;
+  font-size:12pt;
+}
+
+.menuLeft a:hover,.menuLeft a:active,.menuLeft a:focus {
+  background:rgba(255,255,255,.02) !important;
+}
+
+.menuLeft a {
+  height:34px;
+}
+
+
+.menuLeft li > span {
+  font-family: Univers Condensed;
+  color: #fff !important;
+  background: #4c687e !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14pt;
+
+  padding: 0 !important;
+  margin-top: 20px;
+  line-height: 38px;
+  text-transform: uppercase;
+  transition: all .25s,font .1s .15s,color .1s .15s;
+}
+
+.menuLeft li > span:hover {
+  background: #4c687e;
+}
+
+.menuLeft svg {
+  display:none;
+}
+

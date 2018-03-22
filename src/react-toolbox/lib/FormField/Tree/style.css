@@ -1,0 +1,52 @@
+:global(.rc-tree-select) {
+    display:block;
+}
+
+:global(.rc-tree-select-tree li) {
+    cursor:default;
+}
+
+:global(.rc-tree-select-tree-title:hover) {
+    background-color:#ddd;
+}
+
+:global(.rc-tree-select-selection-selected-value) {
+  color:#333;
+}
+
+:global(.rc-tree-select-tree li span.rc-tree-select-tree-switcher) {
+  vertical-align:middle;
+  height:20px;
+}
+
+:global(.rc-tree-select-tree-child-tree.rc-tree-select-tree-child-tree-open) {
+  padding-left:12px;
+}
+
+:global(.rc-tree-select-tree li a) {
+    height:20px;
+    color:#333;
+}
+
+:global(.rc-tree-select-dropdown) {
+  z-index:1060;
+}
+
+:global(.rc-tree-select-arrow) {
+  height:32px;
+}
+
+:global(.rc-tree-select-selection--single) {
+  height:35px;
+  padding-top:2px;
+  padding-left:7px;
+}
+
+:global(.rc-tree-select-selection--multiple) {
+  height:35px;
+  padding-top:3px;
+}
+
+:global(.rc-tree-select.rc-tree-select-disabled > span) {
+  background-color:#eee
+}

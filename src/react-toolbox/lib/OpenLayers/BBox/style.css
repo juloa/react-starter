@@ -1,0 +1,6 @@
+:global(.ol-viewport.nesw) {
+  cursor : nesw-resize;
+}
+:global(.ol-viewport.nwse) {
+  cursor : nwse-resize;
+}

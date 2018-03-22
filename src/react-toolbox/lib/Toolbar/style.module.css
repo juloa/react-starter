@@ -1,0 +1,28 @@
+.toolbar {
+  display : flex;
+ /* background-color : white;*/
+ /* border : 1px solid #ddd;*/
+  z-index:1000;
+}
+.dark {
+  color : rgba(163,175,183,.9);
+  border : none;
+}
+.toolbar a, .toolbar a:hover, .toolbar a:visited {
+  text-decoration : none !important;
+  color : currentcolor;
+}
+.col {
+  flex-direction : column;
+}
+.row {
+  flex-direction : row;
+}
+.backgroundToolbar {
+  background-color : #12242D;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 90px;
+}

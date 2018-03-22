@@ -1,0 +1,5 @@
+.panel .panel-heading .panel-title > a:hover { text-decoration : none !important }
+.pointer { cursor : pointer }
+
+.rotate { transition : all 0.2s; }
+.rotate:hover { transform: rotate(90deg); }

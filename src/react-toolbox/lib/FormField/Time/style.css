@@ -1,0 +1,9 @@
+:global(.rc-time-picker-input) {
+  height: 35px;
+  font-size: 1em;
+}
+
+:global(.rc-time-picker-input[disabled]) {
+  background-color:#eee;
+  cursor:not-allowed;
+}

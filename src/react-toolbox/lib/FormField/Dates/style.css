@@ -1,0 +1,47 @@
+:global(.SingleDatePicker) {
+  display:block;
+}
+:global(.SingleDatePickerInput) {
+  border-radius:4px;
+}
+:global(.DateRangePicker) {
+  display:block;
+}
+:global(.DateRangePickerInput) {
+  border-radius:4px;
+  display:flex;
+  align-items:center;
+  justify-content:stretch;
+}
+:global(.DateRangePickerInput > *:last-child) {
+  text-align:right;
+}
+:global(.DateInput) {
+  border-radius:4px;
+  padding:2px;
+  display:block;
+  width:100%;
+  color:inherit;
+  font-size:inherit;
+}
+:global(.DateRangePickerInput.DateRangePickerInput--disabled) {
+  background-color:#eeeeee;
+}
+:global(.DateInput.DateInput--disabled) {
+  background-color:#eeeeee;
+}
+:global(.DateInput__display-text--disabled) {
+  font-style:normal;
+}
+:global(.SingleDatePicker__picker.SingleDatePicker__picker--direction-left.SingleDatePicker__picker--horizontal) {
+  top:52px;
+}
+:global(.DateRangePicker__picker.DateRangePicker__picker--direction-left.DateRangePicker__picker--horizontal) {
+  top:52px;
+}
+:global(.DateInput--with-caret::before) {
+  top:40px;
+}
+:global(.DateInput--with-caret::after) {
+  top:41px;
+}

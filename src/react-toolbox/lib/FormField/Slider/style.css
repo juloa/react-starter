@@ -1,0 +1,41 @@
+:global(.rc-slider.default .rc-slider-handle) {
+  border-color:gray;
+}
+:global(.rc-slider.default .rc-slider-track) {
+  background-color:gray;
+}
+
+:global(.rc-slider.primary .rc-slider-handle) {
+  border-color:#337ab7;
+}
+:global(.rc-slider.primary .rc-slider-track) {
+  background-color:#337ab7;
+}
+
+:global(.rc-slider.success .rc-slider-handle) {
+  border-color:#5cb85c;
+}
+:global(.rc-slider.success .rc-slider-track) {
+  background-color:#5cb85c;
+}
+
+:global(.rc-slider.info .rc-slider-handle) {
+  border-color:#5bc0de;
+}
+:global(.rc-slider.info .rc-slider-track) {
+  background-color:#5bc0de;
+}
+
+:global(.rc-slider.warning .rc-slider-handle) {
+  border-color:#f0ad4e;
+}
+:global(.rc-slider.warning .rc-slider-track) {
+  background-color:#f0ad4e;
+}
+
+:global(.rc-slider.danger .rc-slider-handle) {
+  border-color:#d9534f;
+}
+:global(.rc-slider.danger .rc-slider-track) {
+  background-color:#d9534f;
+}

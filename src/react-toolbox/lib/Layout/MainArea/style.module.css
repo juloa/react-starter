@@ -1,0 +1,31 @@
+
+.main {
+  min-height: 100%;
+  background: #7c9cb5 url(../assets/images/charte_mfi_2016/rosace_coupee_transparent.png) no-repeat bottom center;
+  width: 100%;
+}
+
+.divHeader {
+    position: relative;
+    padding: 30px 30px;
+    margin: 0;
+    background: 0 0;
+    border-bottom: none;
+}
+
+.divContent{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 26px;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+}

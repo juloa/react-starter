@@ -1,0 +1,22 @@
+.container {
+  display : inline-block;
+  margin:0;
+}
+
+.focus {
+  width : 250px;
+  transition : width 0.2s;
+}
+
+.blur {
+  width : 170px;
+  transition : width 0.2s;
+}
+
+.remove {
+  cursor: pointer;
+}
+
+:global(.input-group .form-control) {
+  z-index:auto;
+}

@@ -1,0 +1,24 @@
+.chevron {
+  margin-right:3px;
+}
+
+.open {
+  composes:chevron;
+  transition:transform 0.3s;
+  transform:rotate(90deg);
+}
+
+.closed {
+  composes:chevron;
+  transition:transform 0.3s;
+  transform:rotate(0deg);
+}
+
+.title {
+  cursor:pointer;
+  display:inline-block;
+}
+
+.section {
+  margin-bottom:40px;
+}

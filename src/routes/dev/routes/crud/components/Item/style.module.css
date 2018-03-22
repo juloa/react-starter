@@ -1,0 +1,21 @@
+.form {
+  display:flex;
+  flex-direction:column;
+}
+.affixBar {
+  margin-top:10px;
+  margin-bottom:20px;
+}
+.editButton {
+  margin-left:50px;
+}
+.buttons {
+  align-self:flex-end;
+  margin-top:20px;
+  display:flex;
+  align-items:center;
+}
+
+.buttons > * {
+  margin-left:20px;
+}

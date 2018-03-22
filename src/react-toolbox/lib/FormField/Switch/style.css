@@ -1,0 +1,29 @@
+:global(.rc-switch.rc-switch-checked.primary) {
+  border : 1px solid #337ab7;
+  background-color : #337ab7;
+}
+
+:global(.rc-switch.rc-switch-checked.default) {
+  border : 1px solid gray;
+  background-color : gray;
+}
+
+:global(.rc-switch.rc-switch-checked.success) {
+  border : 1px solid #5cb85c;
+  background-color : #5cb85c;
+}
+
+:global(.rc-switch.rc-switch-checked.info) {
+  border : 1px solid #5bc0de;
+  background-color : #5bc0de;
+}
+
+:global(.rc-switch.rc-switch-checked.warning) {
+  border : 1px solid #f0ad4e;
+  background-color : #f0ad4e;
+}
+
+:global(.rc-switch.rc-switch-checked.danger) {
+  border : 1px solid #d9534f;
+  background-color : #d9534f;
+}

@@ -1,0 +1,215 @@
+.loginPage {
+  height: 100%;
+  background:linear-gradient(#343436 0%,#343436 30%,#fcfefd 100%);
+  min-height:100vh;
+}
+
+.earth{
+  bottom:0;
+  position:absolute;
+  width:100%;
+  height:30%;
+  background:url('./images/fond_terre.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index:80;
+}
+
+.rosas {
+  top:0;
+  left:0;
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:url('./images/rosas.png');
+  background-size: 44%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index:100;
+}
+
+
+.bleuet {
+  top:0;
+  right:0;
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:url('./images/degrade_bleu.png');
+background-repeat: repeat-y;
+background-position: top right;
+  z-index:100;
+}
+
+.slideshow {
+  top:0;
+  left:0;
+  position:absolute;
+  width:20%;
+  max-width:20%;
+  z-index:120;
+}
+
+.slideshow img {
+  max-width:100%;
+  height:auto;
+}
+
+.logoMfi {
+  bottom:5%;
+  left:5%;
+  position:absolute;
+  width:25%;
+  height:10%;
+  background:url('./images/logo_mfi.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  z-index:120;
+}
+
+
+.loginForm form {
+  position:absolute;
+  width:33%;
+  top:45%;
+  left:33%;
+  right:33%;
+  z-index:100;
+}
+
+
+
+.loginForm form label {
+  color:#fefefe;
+  font-family:Univers Condensed Light;
+  font-size:12pt;
+  margin:5px;
+}
+
+.loginForm form input[type="text"],
+.loginForm form input[type="password"] {
+  border:2px solid #fff;
+  background:#d2d3d5;
+  color:#333;
+  width:100%;
+  height:28px;
+  margin:5px;
+  font-family:Univers Condensed Light;
+  font-size:12pt;
+  margin-bottom:15px;
+  padding-left:5px;
+  padding-top:5px;
+}
+
+.loginForm form .submit-box {
+  text-align:center;
+}
+
+.loginForm form button.connexion {
+  border:2px solid #fff;
+  background:#4c687e;
+  color:#fff;
+  height:30px;
+  margin:5px;
+  margin-top:20px;
+  width:40%;
+  font-family:Univers Condensed;
+  font-size:14pt;
+  cursor:pointer;
+}
+
+.loginForm form button.connexion:hover {
+  background:#ffcc00;
+}
+
+.loginForm form a.forgotten {
+  margin:5px;
+  color:#4c687e;
+  font-family:Univers Condensed Light Oblique;
+  font-size:10pt;
+  text-decoration:none;
+}
+
+.loginForm form a.forgotten:hover {
+  text-decoration:underline;
+}
+
+.title {
+  position:absolute;
+  top:44%;
+  right:40%;
+  font-size:40pt;
+  font-family:Universal Condensed;
+  text-shadow:#000 1px -2px 5px;
+}
+
+.titleVersion {
+  position:absolute;
+  top:60%;
+  right:15%;
+  z-index:100;
+  font-size:14pt;
+  font-family:Univers Condensed Light Oblique;
+  text-shadow:#333 1px -2px;
+}
+.titleDescription {
+  position:absolute;
+  top:60%;
+  left:1%;
+  font-size:14pt;
+  font-family:Univers Condensed Light;
+  text-shadow:#333 1px -2px;
+}
+
+.toolbar {
+  position:absolute;
+  top:20px;
+  right:50px;
+  width:100%;
+  height:50px;
+  z-index:100;
+}
+.toolbar .ico {
+  float:right;
+}
+
+.ico {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  margin-right: 7px; /*space between*/
+
+}
+.ico i {
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.ico:hover  {
+  border: 2px solid #ffcc00;
+}
+.ico:hover i {
+  color:#ffcc00;
+}
+
+.description {
+  position:absolute;
+  top:50px;
+  right:18px;
+  width:320px;
+  height:140px;
+  background:url('./images/ligne_texte_info_jaune.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index:100;
+  color:#fff;
+  font-size:9pt;
+  font-family:Roboto;
+  padding-right:30px;
+  text-align: justify;
+  text-justify: inter-word;
+}

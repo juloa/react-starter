@@ -1,0 +1,37 @@
+.titlebar {
+  background: url('./images/fond_titre_bis.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 310px;
+  height: 66px;
+  padding-top: 10px;
+  padding-left: 130px;
+  margin-left: -100px;
+}
+
+.loginTitleBox {
+  position:absolute;
+  width:60%;
+  height:60%;
+  top:0;
+  left:20%;
+  z-index:100;
+  background:url('./images/titlebox.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color:#fff;
+}
+
+.loginLogoCustomer {
+  bottom:5%;
+  right:5%;
+  position:absolute;
+  width:25%;
+  height:10%;
+  background:url('assets/mfi/images/logo_asecna.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  z-index:120;
+}

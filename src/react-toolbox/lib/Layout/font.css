@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'Univers';
+	src: url('./assets/fonts/Univers.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Univers Condensed';
+	src: url('./assets/fonts/Univers-Condensed.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Univers Condensed Light';
+	src: url('./assets/fonts/Univers-CondensedLight.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Univers Condensed Light Oblique';
+	src: url('./assets/fonts/Univers-CondensedLtOblique.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Universal Condensed';
+	src: url('./assets/fonts/ufonts.com_universal-condensed.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Consola';
+	src: url('./assets/fonts/consola.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,3 @@
+:global(.Select.is-disabled .Select-control) {
+  background-color:#eeeeee;
+}

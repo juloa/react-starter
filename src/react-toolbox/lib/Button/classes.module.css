@@ -1,0 +1,9 @@
+.invisible {
+  background-color: transparent !important;
+  border: transparent !important;
+  opacity: .5;
+  transition: all 0.2s;
+}
+.invisible:hover {
+  opacity: 1;
+}

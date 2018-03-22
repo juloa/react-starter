@@ -1,0 +1,29 @@
+.container {
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
+.affixBar {
+  padding-top:10px;
+  padding-bottom:20px;
+  background:rgba(255,255,255,0.8);
+}
+.marginLeft {
+  margin-left:50px;
+}
+.count {
+  display:inline-block;
+  margin-left:50px;
+  align-self:center;
+}
+.tr {
+  cursor : default;
+}
+.tr > td:last-child {
+  opacity : 0;
+  transition : opacity 0.3s;
+}
+.tr:hover > td:last-child {
+  opacity : 1;
+  transition : opacity 0.3s;
+}
