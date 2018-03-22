@@ -5,9 +5,9 @@ import { injectIntl } from "react-intl"
 import messages from "./messages"
 import List from "./components/List"
 import Item from "./components/Item"
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch } from "react-router-dom"
 
-import { hot } from 'react-hot-loader'
+import { hot } from "react-hot-loader"
 
 import { withBackButton } from "react-toolbox/lib/HOC"
 
@@ -22,11 +22,11 @@ const Main = ({ children, intl }) => {
   return (
     <PageContent title={ title }>
       <Switch>
-        <Route path="/examples/new" exact component={(props) => ( <HocItem edit />) } />
-        <Route path="/examples/:id/edit" exact component={(props) => ( <HocItem id={props.match.params.id} edit />) } />
-        <Route path="/examples/:id" exact component={(props) => ( <HocItem id={props.match.params.id} />) } />
-        
-        <Route path="/examples" exact component={List} />
+        <Route path="/examples/new" exact component={ (props) => ( <HocItem edit />) } />
+        <Route path="/examples/:id/edit" exact component={ (props) => ( <HocItem id={ props.match.params.id } edit />) } />
+        <Route path="/examples/:id" exact component={ (props) => ( <HocItem id={ props.match.params.id } />) } />
+
+        <Route path="/examples" exact component={ List } />
       </Switch>
     </PageContent>
   )

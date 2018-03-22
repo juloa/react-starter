@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import './App.css';
-import { hot } from 'react-hot-loader'
+import React, { Component } from "react"
+import "./App.css"
+import { hot } from "react-hot-loader"
 
-import { Provider } from "react-redux";
-import store from "./store";
+import { Provider } from "react-redux"
+import store from "./store"
 
 import ScrollToTop from "react-toolbox/lib/ScrollToTop"
 
@@ -20,8 +20,8 @@ import MainRouter from "routes"
 import ASideMenu from "components/AsideMenu"
 
 import {
-  BrowserRouter as Router,
-} from 'react-router-dom'
+  BrowserRouter as Router
+} from "react-router-dom"
 
 
 let lang = navigator.language
@@ -36,21 +36,23 @@ if (lang.indexOf("-") !== -1) {
 addLocaleData([...en, ...fr])
 
 class App extends Component {
+
   render() {
     return (
       <IntlProvider locale={ lang } messages={ messages[lang] }>
         <Provider store={ store }>
           <Router>
-              <AuthChecker>
-                <Layout charter="mf" sidebar={<ASideMenu/>}>
-                  <MainRouter />
-                </Layout>
-              </AuthChecker>
+            <AuthChecker>
+              <Layout charter="mf" sidebar={ <ASideMenu/> }>
+                <MainRouter />
+              </Layout>
+            </AuthChecker>
           </Router>
         </Provider>
       </IntlProvider>
-    );
+    )
   }
+
 }
 
-export default hot(module)(App);
+export default hot(module)(App)

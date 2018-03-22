@@ -66,32 +66,32 @@ export default function createTable(STATE_PROPERTY, fetchFunc, Component) {
     dispatch({ type : FETCH_REQUEST })
 
     return fetchFunc({ ...filter, page })
-    .then(res => {
+      .then(res => {
 
-      dispatch({
-        type : FETCH_SUCCESS,
-        list : res.results,
-        count : res.count
+        dispatch({
+          type : FETCH_SUCCESS,
+          list : res.results,
+          count : res.count
+        })
+
       })
+      .catch(e => {
 
-    })
-    .catch(e => {
+        if (e.status === 403) dispatch(logout())
 
-      if (e.status === 403) dispatch(logout())
+        let errorMessage
 
-      let errorMessage
+        try {
+          errorMessage = JSON.parse(e.content).detail
+        } catch (err) {
+          errorMessage = err.content
+        }
 
-      try {
-        errorMessage = JSON.parse(e.content).detail
-      } catch (err) {
-        errorMessage = err.content
-      }
+        dispatch({ type : FETCH_ERROR, error : errorMessage })
 
-      dispatch({ type : FETCH_ERROR, error : errorMessage })
+        throw new Error(errorMessage)
 
-      throw new Error(errorMessage)
-
-    })
+      })
 
   }
 

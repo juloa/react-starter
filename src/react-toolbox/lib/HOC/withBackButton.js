@@ -2,8 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import Button from "react-toolbox/lib/Button"
 import { connect } from "react-redux"
-//import { push } from "react-router-redux"
-import {withRouter} from "react-router-dom";
+// import { push } from "react-router-redux"
+import { withRouter } from "react-router-dom"
 
 export default (url, Component) => {
 
@@ -29,10 +29,10 @@ export default (url, Component) => {
 
   WithBackButton.displayName = `WithBackButton(${Component.displayName || Component.name})`
 
-  function mapDispatchToProps(dispatch,ownProps) {
+  function mapDispatchToProps(dispatch, ownProps) {
 
     return {
-      onClick() { ownProps.history.push(url) } //dispatch(push(url)) }
+      onClick() { ownProps.history.push(url) } // dispatch(push(url)) }
     }
   }
 

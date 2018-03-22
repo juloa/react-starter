@@ -131,6 +131,6 @@ export default (WrappedComponent, initialValues) => {
       )
     }
 
-}
+  }
 
 }

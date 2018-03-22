@@ -67,7 +67,7 @@ const Classic = ({ value, options, name, onChange, multi, style, disabled, ...re
             style={ { marginRight : 30 } }
             disabled={ disabled }
           >
-              { opt.label }
+            { opt.label }
           </Construct>
 
         )

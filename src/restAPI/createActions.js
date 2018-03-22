@@ -16,40 +16,40 @@ export default function createActions(STATE_PROPERTY, api) {
       dispatch({ type : FETCH_REQUEST })
 
       return api[method](args)
-      .then(res => {
+        .then(res => {
 
-        const action = { type : FETCH_SUCCESS }
+          const action = { type : FETCH_SUCCESS }
 
-        if (method !== "delete") action.item = res
+          if (method !== "delete") action.item = res
 
-        dispatch(action)
+          dispatch(action)
 
-        return res
+          return res
 
-      })
-      .catch(e => {
+        })
+        .catch(e => {
 
-        if (e.status === 403) dispatch(logout())
+          if (e.status === 403) dispatch(logout())
 
-        if (!e.detail) {
-          if (e.non_field_errors) {
-            if (Array.isArray(e.non_field_errors)) {
-              e.detail = e.non_field_errors[0]
+          if (!e.detail) {
+            if (e.non_field_errors) {
+              if (Array.isArray(e.non_field_errors)) {
+                e.detail = e.non_field_errors[0]
+              } else {
+                e.detail = e.non_field_errors
+              }
             } else {
-              e.detail = e.non_field_errors
+              e.detail = ""
             }
-          } else {
-            e.detail = ""
           }
-        }
 
-        dispatch({ type : FETCH_ERROR, error : e.detail })
+          dispatch({ type : FETCH_ERROR, error : e.detail })
 
-        e._error = e.detail // redux-form
+          e._error = e.detail // redux-form
 
-        throw e
+          throw e
 
-      })
+        })
     }
   }
 

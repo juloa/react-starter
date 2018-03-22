@@ -37,10 +37,10 @@ export default class BackToTop extends React.Component {
         })
 
       })
-      .then(() => {
-        if (window.scrollY > 0) return scroll()
-        else return null
-      })
+        .then(() => {
+          if (window.scrollY > 0) return scroll()
+          else return null
+        })
 
     }
 

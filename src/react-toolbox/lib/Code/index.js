@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import SyntaxHighlighter from "react-syntax-highlighter"
-import { docco } from 'react-syntax-highlighter/styles/hljs'
+import { docco } from "react-syntax-highlighter/styles/hljs"
 
 export function Code({ children, language }) {
 

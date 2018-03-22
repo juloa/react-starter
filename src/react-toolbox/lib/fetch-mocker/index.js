@@ -39,7 +39,7 @@ export default class Mocker {
     const oldUrl = this._baseUrl
 
     if (/^http/.test(baseUrl)) this._baseUrl = baseUrl
-    else this._baseUrl = window.location.protocol + "//" +  window.location.host + baseUrl
+    else this._baseUrl = window.location.protocol + "//" + window.location.host + baseUrl
 
     if (oldUrl === this._baseUrl) {
       return
@@ -146,8 +146,8 @@ export default class Mocker {
 
   _getHref(url) {
 
-    const protocol = url.protocol ||  window.location.protocol
-    const host = url.host ||  window.location.host
+    const protocol = url.protocol || window.location.protocol
+    const host = url.host || window.location.host
     const pathname = (typeof url === "string") ? url : url.pathname
 
     return protocol + "//" + host + pathname
@@ -213,14 +213,14 @@ export default class Mocker {
   enable() {
 
     window.fetch = this.fetch
-    //this.enabled = true
+    // this.enabled = true
 
   }
 
   disable() {
 
     window.fetch = nativeFetch
-    //this.enabled = false
+    // this.enabled = false
 
   }
 

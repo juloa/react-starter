@@ -11,7 +11,7 @@ export const Content = ({ title, children, ...rest }) => (
     <div className={ classNames.divContent + " container-fluid" }>
       <Panel>
         <div className="container-fluid">
-            { children }
+          { children }
         </div>
       </Panel>
     </div>

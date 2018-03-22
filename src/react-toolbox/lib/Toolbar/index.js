@@ -30,8 +30,8 @@ const Toolbar = ({ className, children, dark, items, orientation, ...rest }) => 
 
   return (
     <div className={ fullClassNames.join(" ") } { ...rest }>
-      <div className={classNames.backgroundToolbar} />
-      { childrenItems.map((item, key) => React.cloneElement(item, { dark, orientation, key })) } 
+      <div className={ classNames.backgroundToolbar } />
+      { childrenItems.map((item, key) => React.cloneElement(item, { dark, orientation, key })) }
     </div>
   )
 }

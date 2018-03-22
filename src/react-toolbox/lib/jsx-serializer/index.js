@@ -37,9 +37,11 @@ function processProps(props) {
 function processType(type) {
 
   switch (typeof type) {
+
   case "string" : return type
   case "function" : return getDisplayName(type)
   default : throw new TypeError((typeof type) + " : string or function required")
+
   }
 
 }

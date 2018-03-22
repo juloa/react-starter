@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Button from "react-toolbox/lib/Button"
 import PageContent from "react-toolbox/lib/Layout/PageContent"
-import { Col,Row,Panel } from "react-bootstrap"
+import { Col, Row, Panel } from "react-bootstrap"
 
 const Main = ({ children }) => {
 
@@ -12,7 +12,7 @@ const Main = ({ children }) => {
     return (
       <PageContent title="Developer Area1111">
         <Row>
-          <Col md ={ 12} >
+          <Col md={ 12 } >
             <Panel>
               <Button link="dev/catalog">» Catalog</Button>
               &nbsp;&nbsp;&nbsp;&nbsp;

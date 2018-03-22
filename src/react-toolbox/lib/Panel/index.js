@@ -55,7 +55,7 @@ class Panel extends React.Component {
             className="rotate"
             label={ messages.collapse.defaultMessage }
           />
-         { icons }{ onCloseButton }
+          { icons }{ onCloseButton }
         </div>
       </div>
     )

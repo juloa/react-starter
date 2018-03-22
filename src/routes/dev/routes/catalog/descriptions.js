@@ -13,11 +13,11 @@ function filterEmptyObjects(obj) {
 
 }
 
-let descriptions = req.keys()
-                  .map(data => { return req(data).default })
-                  .filter(filterEmptyObjects)
-let descriptions2 = req2.keys()
-                  .map(data => { return req2(data).default })
-                  .filter(filterEmptyObjects)
+const descriptions = req.keys()
+  .map(data => { return req(data).default })
+  .filter(filterEmptyObjects)
+const descriptions2 = req2.keys()
+  .map(data => { return req2(data).default })
+  .filter(filterEmptyObjects)
 
-module.exports = [...descriptions,...descriptions2]
+module.exports = [...descriptions, ...descriptions2]

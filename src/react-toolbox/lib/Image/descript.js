@@ -11,7 +11,7 @@ export default {
 
   states : {
 
-    default : () => <Image src={image} />,
+    default : () => <Image src={ image } />,
 
     error : () => <Image src="src/images/satellite_toto.jpg"/>
 

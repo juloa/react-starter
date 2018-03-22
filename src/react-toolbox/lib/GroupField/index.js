@@ -50,7 +50,7 @@ export const GroupField = ({
     </ControlLabel>
   )
 
-  let formControl = (
+  const formControl = (
     <InputField
       type={ type }
       readonly={ readonly }

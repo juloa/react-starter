@@ -28,7 +28,7 @@ const store = createStore(
 
 
 export function injectReducers(newReducers) {
-  
+
   if (typeof newReducers === "object") reducers = { ...reducers, ...newReducers }
   else throw new TypeError((typeof newReducers) + " : newReducers should be an object of reducers (functions)")
 

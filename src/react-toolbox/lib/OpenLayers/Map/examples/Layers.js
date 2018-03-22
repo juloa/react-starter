@@ -3,7 +3,7 @@ import Map from "../../Map"
 import TileLayer from "ol/layer/tile"
 import TileWMS from "ol/source/tilewms"
 import OSM from "ol/source/osm"
-//import SynopsisLayer from "components/Synopsis/Layer"
+// import SynopsisLayer from "components/Synopsis/Layer"
 import { SortableContainer, SortableElement, arrayMove } from "react-sortable-hoc"
 import { ListGroup, ListGroupItem } from "react-bootstrap"
 import Button from "../../../Button"
@@ -61,7 +61,7 @@ class LayersControl extends React.Component {
     this.state = {
       layers : [
         new TileLayer({ source : new OSM() }),
-        //tempeLayer.createTile(),
+        // tempeLayer.createTile(),
         satLayer
       ]
     }

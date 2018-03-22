@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import Section from "../Section/"
 import Code from "react-toolbox/lib/Code"
 import Properties from "./Properties"
-import { Switch } from 'react-router-dom';
+import { Switch } from "react-router-dom"
 
 const Descript = ({ construct, description, states, path, externalLink, namedImport, name }) => {
 
@@ -29,7 +29,7 @@ const Descript = ({ construct, description, states, path, externalLink, namedImp
       <p>{ Header || "composant " + name }</p>
 
       <Switch>
-      { states }
+        { states }
       </Switch>
 
       <Section title="Chemin">

@@ -69,11 +69,11 @@ class FormPage extends React.Component {
     const successMsg = intl.formatMessage(messages[id ? "updateSuccess" : "createSuccess"])
 
     dispatch(action(values))
-    .then(() => this.setState({ readonly : true }))
-    .then(() => dispatch(id ? truncList(id) : resetList()))
-    .then(() => onSubmit && onSubmit(values))
-    .then(() => dispatch(addSuccessNotif(successMsg)))
-    .catch(e => { throw new SubmissionError(e) })
+      .then(() => this.setState({ readonly : true }))
+      .then(() => dispatch(id ? truncList(id) : resetList()))
+      .then(() => onSubmit && onSubmit(values))
+      .then(() => dispatch(addSuccessNotif(successMsg)))
+      .catch(e => { throw new SubmissionError(e) })
 
   }
 
@@ -95,11 +95,9 @@ class FormPage extends React.Component {
           enableReinitialize
           id={ id }
           { ...rest }
-        >
-        </Form>
+        />
 
-        { readonly && 
-        <Button label = { messages.editExample} onClick={this.handleClickEdit} className="pull-right" />
+        { readonly && <Button label={ messages.editExample } onClick={ this.handleClickEdit } className="pull-right" />
         }
       </Panel>
     )

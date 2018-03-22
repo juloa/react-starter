@@ -21,7 +21,7 @@ class Table extends React.Component {
 
     function deleteElmt() {
       api.delete(id)
-      .then(() => truncList(id))
+        .then(() => truncList(id))
     }
 
     return (

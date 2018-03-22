@@ -8,7 +8,8 @@ export default class Scrollbar extends React.Component {
   componentDidMount() {
 
     const ps = new Ps(this.div)
-    this.setState({ps})
+
+    this.setState({ ps })
   }
 
   componentDidUpdate() {

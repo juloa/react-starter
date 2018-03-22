@@ -89,7 +89,7 @@ export default class RugMenu extends React.Component {
     const { children, ...rest } = this.props
 
     let menuItems = []
-    let kebabMenuItems = []
+    const kebabMenuItems = []
     let kebabMenu = null
 
     if (elementWidths) {

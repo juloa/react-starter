@@ -1,16 +1,16 @@
 import { defineMessages } from "react-intl"
 
- const messages = defineMessages({
-    menu_examples : 
+const messages = defineMessages({
+  menu_examples :
     {
-        id : "core.menu_examples",
-        defaultMessage : "Examples"
+      id : "core.menu_examples",
+      defaultMessage : "Examples"
     },
-    menu_level1 : 
+  menu_level1 :
     {
-        id : "core.menu_level1",
-        defaultMessage : "Menu Level 1"
+      id : "core.menu_level1",
+      defaultMessage : "Menu Level 1"
     }
-  })
+})
 
 export default messages

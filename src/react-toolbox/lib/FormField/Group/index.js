@@ -74,9 +74,9 @@ class Group extends React.Component {
       if (multi) {
 
         textContent = options
-        .filter(opt => currentValue.indexOf(opt.value) !== -1)
-        .map(opt => opt.label)
-        .join(", ")
+          .filter(opt => currentValue.indexOf(opt.value) !== -1)
+          .map(opt => opt.label)
+          .join(", ")
 
       } else {
 

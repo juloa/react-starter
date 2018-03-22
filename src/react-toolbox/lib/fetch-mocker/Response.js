@@ -25,4 +25,5 @@ export default class Res {
     return this.send(JSON.stringify(content, null, 2))
 
   }
+
 }

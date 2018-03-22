@@ -96,6 +96,7 @@ export default class Map extends React.Component {
 
       ["zoom", "center", "rotation"].forEach(prop => {
         const newValue = nextProps.view[prop]
+
         if (!isEqual(newValue, props.view[prop])) {
           const method = "set" + ucfirst(prop)
 

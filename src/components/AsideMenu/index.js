@@ -9,7 +9,7 @@ import classNames from "./style.module.css"
 
 class AsideMenu extends React.Component {
 
- constructor(props) {
+  constructor(props) {
     super(props)
     this.state = {
       items : [
@@ -31,9 +31,8 @@ class AsideMenu extends React.Component {
     }
 
   }
-  render ()
-  {
-    return (<div className={classNames.menuLeft}><TreeMenu items={ this.state.items }/></div>)
+  render() {
+    return (<div className={ classNames.menuLeft }><TreeMenu items={ this.state.items }/></div>)
   }
 
 }

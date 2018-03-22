@@ -11,7 +11,7 @@ const OverlayTooltip = ({ tip, placement, children, ...rest }) => {
     <OverlayTrigger placement={ placement } overlay={ tooltip } { ...rest } >
       { children }
     </OverlayTrigger>
-    )
+  )
 }
 
 OverlayTooltip.propTypes = {

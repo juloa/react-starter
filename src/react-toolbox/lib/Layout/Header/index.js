@@ -6,7 +6,7 @@ import classNames2 from "assets/mfi/custom.module.css"
 import logo from "../assets/images/charte_mfi_2016/logo_mfi_blanc.png"
 import logoclient from "assets/mfi/images/logo_asecna_white.png"
 
-import { name,version } from "../../../../../package.json"
+import { name, version } from "../../../../../package.json"
 
 import LogoutButton from "../LogoutButton"
 import UserName from "../UserName"
@@ -31,8 +31,8 @@ export const Header = ({ className, ...rest }) => (
           <div className={ classNames.quidam }>
             Vous êtes connecté en tant que
             &nbsp;<strong><UserName /></strong>
-            <span></span><br />
-            <LogoutButton className= {classNames.btnMini} >Logout</LogoutButton>
+            <span /><br />
+            <LogoutButton className={ classNames.btnMini } >Logout</LogoutButton>
             <a
               href="/help"
               className={ "btn " + classNames.btnMini }

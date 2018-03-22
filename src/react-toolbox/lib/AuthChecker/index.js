@@ -2,7 +2,7 @@ import React from "react"
 import { connect } from "react-redux"
 import { STATE_PROPERTY } from "restAPI/Auth/ducks"
 import LoginPage from "react-toolbox/lib/LoginPage"
-import { withRouter } from 'react-router-dom'
+import { withRouter } from "react-router-dom"
 
 const AuthChecker = ({ logged, children }) => (
   <div>
@@ -22,5 +22,4 @@ function mapStateToProps(state) {
 }
 
 export default withRouter(connect(mapStateToProps)(AuthChecker))
-
 

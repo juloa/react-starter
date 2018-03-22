@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { name,version } from "../../../../package.json"
+import { name, version } from "../../../../package.json"
 import { connect } from "react-redux"
 
 import { login, STATE_PROPERTY } from "restAPI/Auth/ducks"
@@ -10,10 +10,10 @@ import Spinner from "react-toolbox/lib/Spinner"
 import classNames from "./styles.module.css"
 import classNames2 from "assets/mfi/custom.module.css"
 
-//import DocumentTitle from "react-document-title" // <DocumentTitle title="Metronome : login">
+// import DocumentTitle from "react-document-title" // <DocumentTitle title="Metronome : login">
 
 class LoginPage extends React.Component {
-  
+
   constructor(props) {
 
     super(props)
@@ -58,28 +58,27 @@ class LoginPage extends React.Component {
     delete rest.dispatch
 
     return (
-     <div class={classNames.loginPage}>
-      
-      <div className={classNames.rosas}></div>
-      <div className={classNames.bleuet}></div>
+      <div className={ classNames.loginPage }>
 
-        <div className={classNames.toolbar}>
-            <span className={classNames.ico + " "+classNames.info} ></span>
-            <span className={classNames.ico + " "+classNames.config} ></span>
+        <div className={ classNames.rosas } />
+        <div className={ classNames.bleuet } />
+
+        <div className={ classNames.toolbar }>
+          <span className={ classNames.ico + " " + classNames.info } />
+          <span className={ classNames.ico + " " + classNames.config } />
         </div>
-        <div className={classNames.description}>
-        <p>
-        </p>
-        </div>
-
-
-        <div className={classNames2.loginTitleBox}>
-                <div className={classNames.title}>{ name }</div>
-                <div className={classNames.titleDescription}>Synopsis Production Module</div>
-                <div className={classNames.titleVersion}>{ version }</div>
+        <div className={ classNames.description }>
+          <p />
         </div>
 
-        <div className={classNames.loginForm}>
+
+        <div className={ classNames2.loginTitleBox }>
+          <div className={ classNames.title }>{ name }</div>
+          <div className={ classNames.titleDescription }>Synopsis Production Module</div>
+          <div className={ classNames.titleVersion }>{ version }</div>
+        </div>
+
+        <div className={ classNames.loginForm }>
           <Form onSubmit={ this.handleSubmit }>
 
             <label>Username</label>
@@ -126,11 +125,12 @@ class LoginPage extends React.Component {
           </Form>
         </div>
 
-        <div class={classNames.logoMfi}></div>
-        <div class={classNames2.loginLogoCustomer}></div>
-        <div class={classNames.earth}></div>
-    </div>)
+        <div className={ classNames.logoMfi } />
+        <div className={ classNames2.loginLogoCustomer } />
+        <div className={ classNames.earth } />
+      </div>)
   }
+
 }
 
 LoginPage.propTypes = {
@@ -144,7 +144,7 @@ LoginPage.propTypes = {
 
 
 function mapStateToProps(state) {
-  
+
   const dataStore = state[STATE_PROPERTY]
 
   return {
@@ -153,6 +153,6 @@ function mapStateToProps(state) {
   }
 
 }
-  
+
 export default connect(mapStateToProps)(LoginPage)
 

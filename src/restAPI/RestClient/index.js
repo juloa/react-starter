@@ -1,5 +1,5 @@
 /* eslint camelcase:0 */
-/*eslint no-useless-escape:0*/
+/* eslint no-useless-escape:0*/
 import PureMocker from "react-toolbox/lib/fetch-mocker"
 import Chance from "chance"
 
@@ -308,13 +308,13 @@ export default class RestClient {
           })
       } else {
         return response.text()
-        .then(res => {
+          .then(res => {
 
-          const msg = { message : res }
+            const msg = { message : res }
 
-          error = { ...error, ...msg }
-          throw error
-        })
+            error = { ...error, ...msg }
+            throw error
+          })
       }
     }
 

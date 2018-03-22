@@ -12,7 +12,7 @@ import ConfirmWrap from "react-toolbox/lib/ConfirmWrap"
 import { createTable } from "react-toolbox/lib/HOC"
 import classNames from "./style.module.css"
 
-import {withRouter} from "react-router-dom";
+import { withRouter } from "react-router-dom"
 
 import { api, actions } from "../../actions"
 
@@ -30,11 +30,11 @@ export class List extends Component {
 
   renderButtons(cell, row) {
 
-    const { dispatch, truncList,history } = this.props
+    const { dispatch, truncList, history } = this.props
 
     function deleteElmt() {
       dispatch(actions.deleteItem(row.id))
-      .then(() => truncList(row.id))
+        .then(() => truncList(row.id))
     }
 
     function editItem() {
@@ -77,7 +77,7 @@ export class List extends Component {
   }
 
   handleClickNew() {
-    this.props.history.push("/examples/new");
+    this.props.history.push("/examples/new")
   }
 
   render() {

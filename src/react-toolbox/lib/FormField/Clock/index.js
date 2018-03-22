@@ -91,7 +91,7 @@ class Clock extends React.Component {
 
     console.log("render(): hour: " + hour + " minute: " + minute)
 
-    let time = hour + ":" + minute
+    const time = hour + ":" + minute
 
     /*
     if (readonly) {

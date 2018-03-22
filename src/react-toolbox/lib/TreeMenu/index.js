@@ -107,7 +107,7 @@ export default class TreeMenu extends Component {
 
     return (
       <ul { ...rest } style={ { ...styles.ul, ...(dark ? styles.dark : null), ...style } }>
-       { content }
+        { content }
       </ul>
     )
 

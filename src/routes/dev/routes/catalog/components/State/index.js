@@ -1,4 +1,4 @@
-import React, {Component} from "react"
+import React, { Component } from "react"
 import PropTypes from "prop-types"
 import Code from "react-toolbox/lib/Code"
 import Section from "../Section/"
@@ -7,7 +7,7 @@ import classNames from "./style.module.css"
 import Button from "react-bootstrap/lib/Button"
 
 function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+  return string.charAt(0).toUpperCase() + string.slice(1)
 }
 
 class Descript extends Component {

@@ -1,4 +1,4 @@
-/*eslint jsx-a11y/alt-text:0*/
+/* eslint jsx-a11y/alt-text:0*/
 import React from "react"
 import PropTypes from "prop-types"
 import Spinner from "../Spinner"

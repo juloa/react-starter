@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import { Component } from "react"
 
 export default class ScrollToTop extends Component {
 
@@ -11,4 +11,5 @@ export default class ScrollToTop extends Component {
   render() {
     return this.props.children
   }
+
 }

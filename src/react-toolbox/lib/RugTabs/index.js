@@ -23,20 +23,20 @@ class RugTabs extends React.Component {
       <Tab.Container id={ this.id } { ...rest }>
         <div>
           <RugMenu>
-          { Children.map(children, child => (
-            <NavItem eventKey={ child.props.eventKey }>
-              { child.props.title }
-            </NavItem>
-          )) }
+            { Children.map(children, child => (
+              <NavItem eventKey={ child.props.eventKey }>
+                { child.props.title }
+              </NavItem>
+            )) }
           </RugMenu>
           <Tab.Content animation>
-          { Children.map(children, child => {
-            const { ...props } = child.props
+            { Children.map(children, child => {
+              const { ...props } = child.props
 
-            delete props.title
+              delete props.title
 
-            return <Tab.Pane { ...props }/>
-          }) }
+              return <Tab.Pane { ...props }/>
+            }) }
           </Tab.Content>
         </div>
       </Tab.Container>

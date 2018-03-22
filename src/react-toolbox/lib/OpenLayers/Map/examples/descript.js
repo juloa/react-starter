@@ -9,8 +9,8 @@ import BackgroundLayerSource from "./BackgroundLayer.js?txt"
 import ViewControl from "./ViewControl"
 import ViewControlSource from "./ViewControl.js?txt"
 
-//import Synopsis from "./Synopsis"
-//import SynopsisSource from "./Synopsis.js?txt"
+// import Synopsis from "./Synopsis"
+// import SynopsisSource from "./Synopsis.js?txt"
 
 import Layers from "./Layers"
 import LayersSource from "./Layers.js?txt"
@@ -32,7 +32,7 @@ export default {
       render : () => <BackgroundLayer/>,
       fullCode : BackgroundLayerSource
     },
-  /*  synopsis : {
+    /*  synopsis : {
       render : () => <Synopsis/>,
       fullCode : SynopsisSource
     },*/

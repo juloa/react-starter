@@ -163,7 +163,7 @@ export default class Item extends Component {
 
   createLink() {
 
-    let { link, onClick } = this.props
+    const { link, onClick } = this.props
     const spanIcon = this.createSpanIcon()
     const label = this.createLabel()
 
