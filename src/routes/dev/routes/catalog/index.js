@@ -5,7 +5,7 @@ import items from "./descriptions"
 import Descript from "./components/Descript"
 import State from "./components/State"
 import { getDisplayName } from "react-toolbox/lib/jsx-serializer"
-
+import { hot } from 'react-hot-loader'
 
 function createRoute(item,keyComponent) {
   
@@ -90,5 +90,5 @@ class Main extends React.Component {
   }
 }
 
-export default Main
+export default hot(module)(Main)
 

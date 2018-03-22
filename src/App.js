@@ -41,13 +41,11 @@ class App extends Component {
       <IntlProvider locale={ lang } messages={ messages[lang] }>
         <Provider store={ store }>
           <Router>
-            <ScrollToTop>
               <AuthChecker>
                 <Layout charter="mf" sidebar={<ASideMenu/>}>
                   <MainRouter />
                 </Layout>
               </AuthChecker>
-            </ScrollToTop>
           </Router>
         </Provider>
       </IntlProvider>

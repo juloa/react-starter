@@ -2,8 +2,16 @@ module.exports = {
   resolve: {
     modules: [__dirname+ "/src", "node_modules"]
   },
+  entry: ['babel-polyfill', './src/index.js'],
   module: {
     rules: [
+      {
+        enforce: "pre",
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader",
+        options: { fix: true }
+      },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,

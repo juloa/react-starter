@@ -1,8 +1,13 @@
 {
   "presets": [
-    "env",
     "react",
+    ["env", {
+      "targets": {
+        "chrome": 55,
+        "firefox":52
+      }
+    }],
     "stage-2"
   ],
-  "plugins": ["transform-async-to-generator","react-hot-loader/babel"]
+  "plugins": ["react-hot-loader/babel"]
 }

@@ -10,7 +10,7 @@ const Main = ({ children }) => {
   else {
 
     return (
-      <PageContent title="Developer Area">
+      <PageContent title="Developer Area1111">
         <Row>
           <Col md ={ 12} >
             <Panel>

@@ -111,7 +111,6 @@ export class List extends Component {
             </Label>
           ) }
         </AffixBar>
-
         <BootstrapTable
           { ...tableProps }
           options={ { ...tableProps.options, ...options } }

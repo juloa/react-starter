@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PageContent from "react-toolbox/lib/Layout/PageContent"
 import { injectIntl } from "react-intl"
 import messages from "./messages"
+import { hot } from 'react-hot-loader'
 
 class NotFound extends Component {
   render() {
@@ -9,5 +10,4 @@ class NotFound extends Component {
   }
 }
 
-
-export default injectIntl(NotFound) 
+export default hot(module)(injectIntl(NotFound))

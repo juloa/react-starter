@@ -7,6 +7,8 @@ import List from "./components/List"
 import Item from "./components/Item"
 import { Route, Switch } from 'react-router-dom'
 
+import { hot } from 'react-hot-loader'
+
 import { withBackButton } from "react-toolbox/lib/HOC"
 
 const backUrl = "/examples"
@@ -35,5 +37,5 @@ Main.propTypes = {
   intl : PropTypes.object
 }
 
-export default injectIntl(Main)
+export default hot(module)(injectIntl(Main))
 
