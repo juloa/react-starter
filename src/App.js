@@ -1,11 +1,8 @@
 import React, { Component } from "react"
-import "./App.css"
 import { hot } from "react-hot-loader"
 
 import { Provider } from "react-redux"
 import store from "./store"
-
-import ScrollToTop from "react-toolbox/lib/ScrollToTop"
 
 import { IntlProvider, addLocaleData } from "react-intl"
 

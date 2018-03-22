@@ -34,7 +34,7 @@ export default {
 
     bottomRight : () => <Notif position="br">Hello world</Notif>,
 
-    multiple : () => <div>
+    multiple : () => (<div>
       <Notif level="success">Hello world</Notif>
       <Notif level="error">Hello world</Notif>
       <Notif level="warning">Hello world</Notif>
@@ -44,7 +44,7 @@ export default {
       <Notif position="bl">Hello world</Notif>
       <Notif position="bc">Hello world</Notif>
       <Notif position="br">Hello world</Notif>
-    </div>
+    </div>)
 
 
   }

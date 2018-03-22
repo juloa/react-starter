@@ -15,9 +15,9 @@ export default {
 
     default : () => <Code>{ "const Toto = (props) => <div>Toto</div>" }</Code>,
 
-    python : () => <Code language="python">{ `def toto():
+    python : () => (<Code language="python">{ `def toto():
   return "Toto"` }
-    </Code>
+    </Code>)
 
   }
 }
