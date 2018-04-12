@@ -5,7 +5,7 @@ import Button from "../Button"
 import BsPanel from "react-bootstrap/lib/Panel"
 import "./style.css?global"
 
-import messages from "messages"
+import messages from "react-starter/src/messages"
 
 class Panel extends React.Component {
 

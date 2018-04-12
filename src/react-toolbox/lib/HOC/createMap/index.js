@@ -1,7 +1,7 @@
 /* eslint max-statements:0, complexity:0 */
 
 import { fromJS } from "immutable"
-import { injectReducers } from "store"
+import { injectReducers } from "react-starter/src/store"
 import Map from "../../OpenLayers/Map"
 import { connect } from "react-redux"
 import proj from "ol/proj"

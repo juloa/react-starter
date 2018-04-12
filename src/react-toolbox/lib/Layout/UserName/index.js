@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Glyphicon } from "react-bootstrap"
 import { connect } from "react-redux"
-import { STATE_PROPERTY } from "restAPI/Auth/ducks"
+import { STATE_PROPERTY } from "react-starter/src/restAPI/Auth/ducks"
 import styles from "./styles"
 
 const Icon = () => (

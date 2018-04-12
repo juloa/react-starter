@@ -20,7 +20,7 @@ export default function createDescript(Component) {
 
     name : Component.displayName,
 
-    path : "components/Fields/" + Component.displayName.replace(/Select/, ""),
+    path : "react-starter/src/components/Fields/" + Component.displayName.replace(/Select/, ""),
 
     states : {
 

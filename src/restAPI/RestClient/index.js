@@ -1,6 +1,6 @@
 /* eslint camelcase:0 */
 /* eslint no-useless-escape:0*/
-import PureMocker from "react-toolbox/lib/fetch-mocker"
+import PureMocker from "react-starter/src/react-toolbox/lib/fetch-mocker"
 import Chance from "chance"
 
 const chance = new Chance()

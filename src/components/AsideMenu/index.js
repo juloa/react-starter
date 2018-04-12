@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import TreeMenu from "react-toolbox/lib/TreeMenu"
+import TreeMenu from "react-starter/src/react-toolbox/lib/TreeMenu"
 import Glyphicon from "react-bootstrap/lib/Glyphicon"
 import { injectIntl } from "react-intl"
 import messages from "./messages"

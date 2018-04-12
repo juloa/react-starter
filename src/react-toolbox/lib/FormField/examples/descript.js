@@ -71,7 +71,7 @@ export default {
 
   construct : FormField,
 
-  path : "components/FormField",
+  path : "react-starter/src/components/FormField",
 
   name : "FormField",
 

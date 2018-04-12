@@ -3,14 +3,14 @@ import React from "react"
 import ReactDOM from "react-dom"
 import PropTypes from "prop-types"
 import { connect } from "react-redux"
-import Spinner from "react-toolbox/lib/Spinner"
+import Spinner from "react-starter/src/react-toolbox/lib/Spinner"
 import { Alert } from "react-bootstrap"
 import _ from "lodash"
 
 import classNames from "./style.module.css"
 
-import { logout } from "restAPI/Auth/ducks"
-import { injectReducers } from "store"
+import { logout } from "react-starter/src/restAPI/Auth/ducks"
+import { injectReducers } from "react-starter/src/store"
 import { fromJS } from "immutable"
 
 const debounce = _.debounce

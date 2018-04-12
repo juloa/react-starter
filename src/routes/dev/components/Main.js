@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Button from "react-toolbox/lib/Button"
-import PageContent from "react-toolbox/lib/Layout/PageContent"
+import Button from "react-starter/src/react-toolbox/lib/Button"
+import PageContent from "react-starter/src/react-toolbox/lib/Layout/PageContent"
 import { Col, Row, Panel } from "react-bootstrap"
 
 const Main = ({ children }) => {

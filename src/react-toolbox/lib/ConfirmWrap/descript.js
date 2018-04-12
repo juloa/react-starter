@@ -2,7 +2,7 @@
 
 import React from "react"
 import ConfirmWrap from "./"
-import Button from "react-toolbox/lib/Button"
+import Button from "react-starter/src/react-toolbox/lib/Button"
 
 export default {
 

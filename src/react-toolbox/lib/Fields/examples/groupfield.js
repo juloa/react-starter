@@ -1,5 +1,5 @@
 import React from "react"
-import GroupField from "react-toolbox/lib/GroupField"
+import GroupField from "react-starter/src/react-toolbox/lib/GroupField"
 
 export default function createExample(Component) {
 

@@ -8,7 +8,7 @@ export default {
 
   name : "AffixBar",
 
-  path : "components/AffixBar",
+  path : "react-starter/src/components/AffixBar",
 
   descript : `Permet de faire une barre de menus ou boutons
   qui reste en haut d'écran quand on scrolle, fait apparaître

@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import PageContent from "react-toolbox/lib/Layout/PageContent"
+import PageContent from "react-starter/src/react-toolbox/lib/Layout/PageContent"
 import { Link } from "react-router-dom"
 import { hot } from "react-hot-loader"
 

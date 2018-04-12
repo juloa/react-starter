@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import FormField from "react-toolbox/lib/FormField"
-import Button from "react-toolbox/lib/Button"
+import FormField from "react-starter/src/react-toolbox/lib/FormField"
+import Button from "react-starter/src/react-toolbox/lib/Button"
 import { reduxForm } from "redux-form"
 
 export default function createExample(Component) {

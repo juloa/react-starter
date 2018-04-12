@@ -1,10 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { connect } from "react-redux"
-import { login, STATE_PROPERTY } from "restAPI/Auth/ducks"
+import { login, STATE_PROPERTY } from "react-starter/src/restAPI/Auth/ducks"
 import { Button, FormControl, Form, Alert } from "react-bootstrap"
 import styles from "./styles"
-import Spinner from "react-toolbox/lib/Spinner"
+import Spinner from "react-starter/src/react-toolbox/lib/Spinner"
 
 class LoginForm extends React.Component {
 

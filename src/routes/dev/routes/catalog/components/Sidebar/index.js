@@ -1,5 +1,5 @@
 import React from "react"
-import TreeMenu from "react-toolbox/lib/TreeMenu"
+import TreeMenu from "react-starter/src/react-toolbox/lib/TreeMenu"
 import componentItems from "../../menuItems"
 import ControlLabel from "react-bootstrap/lib/ControlLabel"
 import FormGroup from "react-bootstrap/lib/FormGroup"

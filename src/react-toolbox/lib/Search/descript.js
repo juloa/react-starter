@@ -7,7 +7,7 @@ export default {
 
   construct : Search,
 
-  path : "components/Search",
+  path : "react-starter/src/components/Search",
 
   states : {
     default : () => <Search onChange={ log }/>

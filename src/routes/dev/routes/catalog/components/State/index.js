@@ -1,8 +1,8 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
-import Code from "react-toolbox/lib/Code"
+import Code from "react-starter/src/react-toolbox/lib/Code"
 import Section from "../Section/"
-import { elmtToJSX } from "react-toolbox/lib/jsx-serializer"
+import { elmtToJSX } from "react-starter/src/react-toolbox/lib/jsx-serializer"
 import classNames from "./style.module.css"
 import Button from "react-bootstrap/lib/Button"
 

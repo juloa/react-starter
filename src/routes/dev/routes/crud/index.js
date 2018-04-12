@@ -3,9 +3,9 @@
 import React from "react"
 import Main from "./components/Main"
 import Item from "./components/Item"
-import store from "store"
+import store from "react-starter/src/store"
 import { push } from "react-router-redux"
-import { withBackButton } from "components/HOC"
+import { withBackButton } from "react-starter/src/components/HOC"
 
 const backUrl = "dev/crud"
 

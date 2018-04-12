@@ -1,6 +1,6 @@
 /* Import the async components */
 import React from "react"
-import asyncComponent from "react-toolbox/lib/AsyncComponent"
+import asyncComponent from "react-starter/src/react-toolbox/lib/AsyncComponent"
 import { Route, Switch } from "react-router-dom"
 
 const AsyncHome = asyncComponent(() => import("./Home"))

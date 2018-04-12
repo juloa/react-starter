@@ -21,7 +21,7 @@ export default {
 
   name : "OpenLayersMap",
 
-  path : "components/OpenLayers/Map",
+  path : "react-starter/src/components/OpenLayers/Map",
 
   states : {
     default : {

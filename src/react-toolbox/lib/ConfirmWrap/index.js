@@ -2,7 +2,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { injectIntl } from "react-intl"
-import Confirm from "react-toolbox/lib/Confirm"
+import Confirm from "react-starter/src/react-toolbox/lib/Confirm"
 import messages from "./messages"
 
 class ConfirmWrap extends React.Component {

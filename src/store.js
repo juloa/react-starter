@@ -6,7 +6,7 @@ import {
   reducer as loginReducer,
   STATE_PROPERTY as LOGIN_PROPERTY,
   recoverLogin
-} from "restAPI/Auth/ducks"
+} from "react-starter/src/restAPI/Auth/ducks"
 
 let devTools
 

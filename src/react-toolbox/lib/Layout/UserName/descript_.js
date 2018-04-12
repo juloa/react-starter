@@ -5,7 +5,7 @@ export default {
 
   construct : UserName,
 
-  path : "components/UserName",
+  path : "react-starter/src/components/UserName",
 
   states : {
     default : () => <UserName name="Yannick Bochatay"/>,

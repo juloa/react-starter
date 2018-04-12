@@ -1,7 +1,7 @@
 import React from "react"
 import { connect } from "react-redux"
-import { STATE_PROPERTY } from "restAPI/Auth/ducks"
-import LoginPage from "react-toolbox/lib/LoginPage"
+import { STATE_PROPERTY } from "react-starter/src/restAPI/Auth/ducks"
+import LoginPage from "react-starter/src/react-toolbox/lib/LoginPage"
 import { withRouter } from "react-router-dom"
 
 const AuthChecker = ({ logged, children }) => (

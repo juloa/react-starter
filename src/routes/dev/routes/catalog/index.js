@@ -4,7 +4,7 @@ import { Route, Switch } from "react-router-dom"
 import items from "./descriptions"
 import Descript from "./components/Descript"
 import State from "./components/State"
-import { getDisplayName } from "react-toolbox/lib/jsx-serializer"
+import { getDisplayName } from "react-starter/src/react-toolbox/lib/jsx-serializer"
 import { hot } from "react-hot-loader"
 
 function createRoute(item, keyComponent) {

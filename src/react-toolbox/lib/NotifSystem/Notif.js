@@ -1,7 +1,7 @@
 import { Component } from "react"
 import PropTypes from "prop-types"
 import { addNotification, removeNotification } from "./ducks"
-import store from "store"
+import store from "react-starter/src/store"
 
 export default class Notif extends Component {
 

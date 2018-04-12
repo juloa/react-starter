@@ -3,12 +3,12 @@ import PropTypes from "prop-types"
 import { name, version } from "../../../../package.json"
 import { connect } from "react-redux"
 
-import { login, STATE_PROPERTY } from "restAPI/Auth/ducks"
+import { login, STATE_PROPERTY } from "react-starter/src/restAPI/Auth/ducks"
 import { Button, FormControl, Form, Alert } from "react-bootstrap"
-import Spinner from "react-toolbox/lib/Spinner"
+import Spinner from "react-starter/src/react-toolbox/lib/Spinner"
 
 import classNames from "./styles.module.css"
-import classNames2 from "assets/mfi/custom.module.css"
+import classNames2 from "react-starter/src/assets/mfi/custom.module.css"
 
 // import DocumentTitle from "react-document-title" // <DocumentTitle title="Metronome : login">
 

@@ -1,7 +1,7 @@
-import apis from "restAPI"
+import apis from "react-starter/src/restAPI"
 import { fromJS } from "immutable"
-import { logout } from "restAPI/Auth/ducks"
-import { injectReducers } from "store"
+import { logout } from "react-starter/src/restAPI/Auth/ducks"
+import { injectReducers } from "react-starter/src/store"
 
 export default (field) => {
 

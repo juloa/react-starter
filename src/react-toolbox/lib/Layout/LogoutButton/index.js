@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Button from "react-toolbox/lib/Button"
+import Button from "react-starter/src/react-toolbox/lib/Button"
 import { connect } from "react-redux"
-import { logout } from "restAPI/Auth/ducks"
+import { logout } from "react-starter/src/restAPI/Auth/ducks"
 
 export const LogoutButton = ({ onClick, children, icon, ...rest }) => (
   <Button

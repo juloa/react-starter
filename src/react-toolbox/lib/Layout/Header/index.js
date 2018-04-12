@@ -1,10 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import classNames from "./style.module.css"
-import classNames2 from "assets/mfi/custom.module.css"
+import classNames2 from "react-starter/src/assets/mfi/custom.module.css"
 
 import logo from "../assets/images/charte_mfi_2016/logo_mfi_blanc.png"
-import logoclient from "assets/mfi/images/logo_asecna_white.png"
+import logoclient from "react-starter/src/assets/mfi/images/logo_asecna_white.png"
 
 import { name, version } from "../../../../../package.json"
 

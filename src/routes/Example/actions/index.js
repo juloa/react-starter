@@ -1,5 +1,5 @@
-import createActions from "restAPI/createActions"
-import apis from "restAPI"
+import createActions from "react-starter/src/restAPI/createActions"
+import apis from "react-starter/src/restAPI"
 
 export const STATE_PROPERTY = "examples"
 

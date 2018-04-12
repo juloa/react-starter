@@ -1,4 +1,4 @@
-import { api as authAPI } from "restAPI/Auth/ducks"
+import { api as authAPI } from "react-starter/src/restAPI/Auth/ducks"
 
 import UserAPI from "./Users"
 import ExamplesAPI from "./Examples"

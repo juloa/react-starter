@@ -10,7 +10,7 @@ export default {
   descript : `Système de notifications. Pour une notification qui doit apparaître sur toutes les pages,
               on peut utiliser l'action addNotification du store (fichier components/NotifSystem)`,
 
-  path : "components/NotifSystem/Notif",
+  path : "react-starter/src/components/NotifSystem/Notif",
 
   link : "https://github.com/igorprado/react-notification-system",
 

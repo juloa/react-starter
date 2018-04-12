@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Section from "../Section/"
-import Code from "react-toolbox/lib/Code"
+import Code from "react-starter/src/react-toolbox/lib/Code"
 import Properties from "./Properties"
 import { Switch } from "react-router-dom"
 
@@ -34,7 +34,7 @@ const Descript = ({ construct, description, states, path, externalLink, namedImp
 
       <Section title="Chemin">
         <Code>
-          { `import ${namedImport ? "{ " + name + " }" : name} from "${path || "components/" + name}"` }
+          { `import ${namedImport ? "{ " + name + " }" : name} from "${path || "react-starter/src/components/" + name}"` }
         </Code>
       </Section>
 

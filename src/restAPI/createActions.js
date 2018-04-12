@@ -1,6 +1,6 @@
 import { logout } from "./Auth/ducks"
 import { fromJS } from "immutable"
-import { injectReducers } from "store"
+import { injectReducers } from "react-starter/src/store"
 
 export default function createActions(STATE_PROPERTY, api) {
 

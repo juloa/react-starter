@@ -1,5 +1,5 @@
-const req = require.context("react-toolbox/lib/", true, /descript\.js$/)
-const req2 = require.context("components/", true, /descript\.js$/)
+const req = require.context("react-starter/src/react-toolbox/lib/", true, /descript\.js$/)
+const req2 = require.context("react-starter/src/components/", true, /descript\.js$/)
 
 function filterEmptyObjects(obj) {
 

@@ -1,6 +1,6 @@
 import React from "react"
 import Toolbar from "./"
-import TreeMenu from "react-toolbox/lib/TreeMenu"
+import TreeMenu from "react-starter/src/react-toolbox/lib/TreeMenu"
 
 const items = [{
   icon : "home",
@@ -50,7 +50,7 @@ export default {
 
   construct : Toolbar,
 
-  path : "components/Toolbar",
+  path : "react-starter/src/components/Toolbar",
 
   name : "Toolbar",
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import asyncComponent from "react-toolbox/lib/AsyncComponent"
+import asyncComponent from "react-starter/src/react-toolbox/lib/AsyncComponent"
 import { Route, Switch } from "react-router-dom"
 import Main from "./components/Main"
 import { hot } from "react-hot-loader"

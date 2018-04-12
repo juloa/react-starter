@@ -1,7 +1,7 @@
 import React from "react"
 import Ol from "../../Map"
 import BBox from "../../BBox"
-// import SynopsisLayer from "components/Synopsis/Layer"
+// import SynopsisLayer from "react-starter/src/components/Synopsis/Layer"
 import TileLayer from "ol/layer/tile"
 import OSM from "ol/source/osm"
 

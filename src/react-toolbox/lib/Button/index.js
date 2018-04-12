@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Glyphicon, Button as BButton } from "react-bootstrap"
-import OverlayTooltip from "react-toolbox/lib/OverlayTooltip"
+import OverlayTooltip from "react-starter/src/react-toolbox/lib/OverlayTooltip"
 import { Link } from "react-router-dom"
 import styles from "./styles"
 import classes from "./classes.module.css"

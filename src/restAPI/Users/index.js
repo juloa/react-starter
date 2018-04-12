@@ -1,4 +1,4 @@
-import RestClient from "restAPI/RestClient"
+import RestClient from "react-starter/src/restAPI/RestClient"
 
 export default class PermissionClient extends RestClient {
 

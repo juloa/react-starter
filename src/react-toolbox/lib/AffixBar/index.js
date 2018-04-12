@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import Affix from "../Affix"
 import BackToTop from "../BackToTop"
 import Button from "../Button"
-import Spinner from "react-toolbox/lib/Spinner"
+import Spinner from "react-starter/src/react-toolbox/lib/Spinner"
 import { FormattedMessage as Text } from "react-intl"
 import messages from "./messages"
 

@@ -1,6 +1,6 @@
 module.exports = {
   resolve : {
-    modules : [__dirname + "/src", "node_modules"]
+    modules : ["src", "node_modules"]
   },
   entry : ["babel-polyfill", "./src/index.js"],
   module : {
@@ -16,7 +16,20 @@ module.exports = {
         test : /\.(js|jsx)$/,
         exclude : /node_modules/,
         use : {
-          loader : "babel-loader"
+          loader : "babel-loader",
+          options: {
+  "presets": [
+    "react",
+    ["env", {
+      "targets": {
+        "chrome": 55,
+        "firefox":52
+      }
+    }],
+    "stage-2"
+  ],
+  "plugins": ["react-hot-loader/babel"]
+}
         }
       },
       {
@@ -140,7 +153,7 @@ module.exports = {
     ]
   },
   output : {
-    path : __dirname + "/builds",
+    path : "/builds",
     publicPath : "/builds/",
     filename : "bundle.js"
   }

@@ -7,7 +7,7 @@ export default {
 
   name : "Button",
 
-  path : "components/Button",
+  path : "react-starter/src/components/Button",
 
   descript : `Surcouche de react-bootstrap/Button permettant d'ajouter facilement une icône (Glyph),
   un lien, avoir un mode compact (le label passe en infobulle), en mode rond (type material design).`,

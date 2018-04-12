@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Item from "./Item"
 import classNames from "./style.module.css"
-import TreeMenu from "react-toolbox/lib/TreeMenu"
+import TreeMenu from "react-starter/src/react-toolbox/lib/TreeMenu"
 
 const renderItems = (items, dark) => (
   items.map((item, i) => (

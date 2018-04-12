@@ -6,7 +6,7 @@ export default {
 
   construct : FlexBar,
 
-  path : "components/FlexBar",
+  path : "react-starter/src/components/FlexBar",
 
   states : {
 

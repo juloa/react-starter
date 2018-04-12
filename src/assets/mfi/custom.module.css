@@ -29,7 +29,7 @@
   position:absolute;
   width:25%;
   height:10%;
-  background:url('assets/mfi/images/logo_asecna.png');
+  background:url('./images/logo_asecna.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom right;

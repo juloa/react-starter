@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import messages from "../../../messages"
-import FormField from "components/FormField"
-import { minLength, maxLength, required } from "components/FormField/rules"
+import FormField from "react-starter/src/components/FormField"
+import { minLength, maxLength, required } from "react-starter/src/components/FormField/rules"
 
 const NameField = props => (
   <FormField

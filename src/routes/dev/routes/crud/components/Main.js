@@ -1,6 +1,6 @@
 import React, { Children } from "react"
 import PropTypes from "prop-types"
-import PageContent from "components/Layout/PageContent"
+import PageContent from "react-starter/src/components/Layout/PageContent"
 import { injectIntl } from "react-intl"
 import messages from "../messages"
 import List from "./List"

@@ -21,7 +21,7 @@ export default {
 
   name : "Table",
 
-  path : "components/Table",
+  path : "react-starter/src/components/Table",
 
   states : {
     default : {

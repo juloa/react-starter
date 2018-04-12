@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Select from "react-toolbox/lib/FormField/Select"
-import TreeSelect from "react-toolbox/lib/FormField/Tree"
-import Group from "react-toolbox/lib/FormField/Group"
+import Select from "react-starter/src/react-toolbox/lib/FormField/Select"
+import TreeSelect from "react-starter/src/react-toolbox/lib/FormField/Tree"
+import Group from "react-starter/src/react-toolbox/lib/FormField/Group"
 import messages from "./messages"
 
 class GenericSelect extends React.Component {

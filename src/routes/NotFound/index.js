@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import PageContent from "react-toolbox/lib/Layout/PageContent"
+import PageContent from "react-starter/src/react-toolbox/lib/Layout/PageContent"
 import { injectIntl } from "react-intl"
 import messages from "./messages"
 import { hot } from "react-hot-loader"

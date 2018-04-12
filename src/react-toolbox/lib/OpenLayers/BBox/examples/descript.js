@@ -16,7 +16,7 @@ export default {
 
   name : "OpenLayersBBox",
 
-  path : "components/OpenLayers/BBox",
+  path : "react-starter/src/components/OpenLayers/BBox",
 
   states : {
     static : {

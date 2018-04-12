@@ -1,6 +1,6 @@
-import RestClient from "restAPI/RestClient"
-import createActions from "restAPI/createActions"
-import createMock from "restAPI/createMock"
+import RestClient from "react-starter/src/restAPI/RestClient"
+import createActions from "react-starter/src/restAPI/createActions"
+import createMock from "react-starter/src/restAPI/createMock"
 import Chance from "chance"
 
 const chance = new Chance()

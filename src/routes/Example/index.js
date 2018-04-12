@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import PageContent from "react-toolbox/lib/Layout/PageContent"
+import PageContent from "react-starter/src/react-toolbox/lib/Layout/PageContent"
 import { injectIntl } from "react-intl"
 import messages from "./messages"
 import List from "./components/List"
@@ -9,7 +9,7 @@ import { Route, Switch } from "react-router-dom"
 
 import { hot } from "react-hot-loader"
 
-import { withBackButton } from "react-toolbox/lib/HOC"
+import { withBackButton } from "react-starter/src/react-toolbox/lib/HOC"
 
 const backUrl = "/examples"
 

@@ -1,5 +1,5 @@
 import descriptions from "./descriptions"
-import { getDisplayName } from "react-toolbox/lib/jsx-serializer"
+import { getDisplayName } from "react-starter/src/react-toolbox/lib/jsx-serializer"
 
 function getName(elmt) {
 

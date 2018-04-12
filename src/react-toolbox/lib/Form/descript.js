@@ -26,7 +26,7 @@ export default {
   descript : `Wrapper qui permet d'agir de manière globale sur les propriétes inline,
   readonly et labelWidth des composants FormField contenus dans le formulaire`,
 
-  path : "components/Form",
+  path : "react-starter/src/components/Form",
 
   states : {
     default : {
